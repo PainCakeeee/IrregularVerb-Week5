@@ -51,31 +51,22 @@ const FINNISH_PHRASES = [
 ];
 
 const WORD_BANK: Word[] = [
-  { base: "spit", past: "spat", participle: "spat", icon: "💦", stage: 0 },
-  { base: "steal", past: "stole", participle: "stolen", icon: "🕵️", stage: 0 },
-  { base: "hurt", past: "hurt", participle: "hurt", icon: "🤕", stage: 0 },
-  { base: "keep", past: "kept", participle: "kept", icon: "📦", stage: 0 },
-  { base: "do", past: "did", participle: "done", icon: "✅", stage: 0 },
-  { base: "stick", past: "stuck", participle: "stuck", icon: "📌", stage: 0 },
-  { base: "strike", past: "struck", participle: "struck", icon: "⚡", stage: 0 },
-  { base: "lay", past: "laid", participle: "laid", icon: "🪺", stage: 0 },
-  { base: "lead", past: "led", participle: "led", icon: "🧭", stage: 0 },
-  { base: "drink", past: "drank", participle: "drunk", icon: "🥤", stage: 0 },
-  { base: "swear", past: "swore", participle: "sworn", icon: "🤬", stage: 0 },
-  { base: "swim", past: "swam", participle: "swum", icon: "🏊", stage: 0 },
-  { base: "leave", past: "left", participle: "left", icon: "🚪", stage: 0 },
-  { base: "lend", past: "lent", participle: "lent", icon: "🤲", stage: 0 },
-  { base: "drive", past: "drove", participle: "driven", icon: "🚗", stage: 0 },
-  { base: "swing", past: "swung", participle: "swung", icon: "🏌️", stage: 0 },
-  { base: "tear", past: "tore", participle: "torn", icon: "🧻", stage: 0 },
-  { base: "let", past: "let", participle: "let", icon: "🟢", stage: 0 },
-  { base: "make", past: "made", participle: "made", icon: "🛠️", stage: 0 },
-  { base: "eat", past: "ate", participle: "eaten", icon: "🍽️", stage: 0 },
-  { base: "mean", past: "meant", participle: "meant", icon: "💡", stage: 0 },
-  { base: "meet", past: "met", participle: "met", icon: "🤝", stage: 0 },
+  { base: "win", past: "won", participle: "won", icon: "🏆", stage: 0 },
+  { base: "write", past: "wrote", participle: "written", icon: "✍️", stage: 0 },
+  { base: "spend", past: "spent", participle: "spent", icon: "💳", stage: 0 },
+  { base: "spread", past: "spread", participle: "spread", icon: "🧈", stage: 0 },
+  { base: "go", past: "went", participle: "gone", icon: "🚶", stage: 0 },
+  { base: "stand", past: "stood", participle: "stood", icon: "🧍", stage: 0 },
+  { base: "sweep", past: "swept", participle: "swept", icon: "🧹", stage: 0 },
+  { base: "grow", past: "grew", participle: "grown", icon: "🌱", stage: 0 },
+  { base: "teach", past: "taught", participle: "taught", icon: "👩‍🏫", stage: 0 },
+  { base: "tell", past: "told", participle: "told", icon: "🗣️", stage: 0 },
+  { base: "know", past: "knew", participle: "known", icon: "🧠", stage: 0 },
+  { base: "see", past: "saw", participle: "seen", icon: "👀", stage: 0 },
+  { base: "take", past: "took", participle: "taken", icon: "🧳", stage: 0 },
 ];
 
-const WORD_BANK_VERSION = '2026-03-21-v3';
+const WORD_BANK_VERSION = '2026-03-21-v5';
 
 // --- Custom Hook for Orientation ---
 function useOrientation() {
