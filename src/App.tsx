@@ -64,6 +64,19 @@ const WORD_BANK: Word[] = [
   { base: "know", past: "knew", participle: "known", icon: "🧠", stage: 0 },
   { base: "see", past: "saw", participle: "seen", icon: "👀", stage: 0 },
   { base: "take", past: "took", participle: "taken", icon: "🧳", stage: 0 },
+  { base: "begin", past: "began", participle: "begun", icon: "🚀", stage: 0 },
+  { base: "bite", past: "bit", participle: "bitten", icon: "🦷", stage: 0 },
+  { base: "blow", past: "blew", participle: "blown", icon: "🌬️", stage: 0 },
+  { base: "break", past: "broke", participle: "broken", icon: "💔", stage: 0 },
+  { base: "choose", past: "chose", participle: "chosen", icon: "🎯", stage: 0 },
+  { base: "do", past: "did", participle: "done", icon: "✅", stage: 0 },
+  { base: "drink", past: "drank", participle: "drunk", icon: "🥤", stage: 0 },
+  { base: "drive", past: "drove", participle: "driven", icon: "🚗", stage: 0 },
+  { base: "eat", past: "ate", participle: "eaten", icon: "🍽️", stage: 0 },
+  { base: "fall", past: "fell", participle: "fallen", icon: "🍂", stage: 0 },
+  { base: "fly", past: "flew", participle: "flown", icon: "✈️", stage: 0 },
+  { base: "forget", past: "forgot", participle: "forgotten", icon: "🤔", stage: 0 },
+  { base: "give", past: "gave", participle: "given", icon: "🎁", stage: 0 },
 ];
 
 const WORD_BANK_VERSION = '2026-03-21-v5';
