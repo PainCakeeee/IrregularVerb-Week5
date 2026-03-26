@@ -79,7 +79,7 @@ const WORD_BANK: Word[] = [
   { base: "give", past: "gave", participle: "given", icon: "🎁", stage: 0 },
 ];
 
-const WORD_BANK_VERSION = '2026-03-21-v5';
+const WORD_BANK_VERSION = '2026-03-26-v5-updated';
 
 // --- Custom Hook for Orientation ---
 function useOrientation() {
